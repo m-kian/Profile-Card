@@ -1,0 +1,39 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffe6f2; /* Soft pink background */
+}
+
+.profile-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(255, 105, 180, 0.3); /* Light pink shadow */
+  text-align: center;
+  border: 2px solid #ff69b4; /* Bold pink border */
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #ff69b4; /* Pink border around avatar */
+}
+
+h2 {
+  color: #ff69b4; /* Pink text for the name */
+}
+
+p {
+  color: #333; /* Keeping bio text dark for readability */
+}
+.profile-card button {
+  background-color: #ff69b4; /* Pink button */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
